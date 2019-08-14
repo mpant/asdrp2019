@@ -1,1 +1,4 @@
 Group 2 source code and design
+
+main.py  - Added by mpant and Aarav Pant - 
+This script is a modification of the Adafruit CPX with micro Servo code. This code is being used to create a "sense, think and act " toy robot. 
