@@ -1,1 +1,2 @@
 ####Robot.py####
+To run robot.py, packages SpeechRecognition and PyAudio will need to be installed.
