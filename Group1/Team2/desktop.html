@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="tank.css" media="screen" />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+<script src="tank-desktop.js"></script>
+<title>Lego Tank</title>
+</head>
+<body>
+<div class='alignCenter'>
+<div id='header'>
+</div>
+
+<div id='controls'>
+    <img class='button nav' id='ArrowUp' src='ArrowUp.png' />
+    <div class='clear'></div>
+
+    <img class='button nav' id='ArrowLeft' src='ArrowLeft.png' />
+    <img id='body' src='tank.png' />
+    <img class='button nav' id='ArrowRight' src='ArrowRight.png' />
+    <div class='clear'></div>
+
+    <img class='button nav' id='ArrowDown' src='ArrowDown.png' />
+    <div class='clear'></div>
+</div>
+
+<!--<img class='siderobot' src='robotimg.PNG';>-->
+
+<div id='desktop-medium-motor-spin'>
+    <img class='button medium CounterClockwise' src='ArrowClockwise.png' />
+    <img class='button medium Clockwise' src='ArrowClockwise.png' />
+    <br>
+    <div id="medium-motor-speed"></div>
+    <label for="medium-motor-speed">Medium Motor Speed</label>
+    <br>
+    <div id="tank-speed"></div>
+    <div class="tank-speed-label"><label class="tank-speed-label" for="tank-speed">Tank Speed</label></div>
+    <div id="TTS">
+        <p>Text To Speech</p> 
+        <input type="text" id ="sound"><br>     
+    <button class="enter-button" onclick="tts()">Enter</button>
+    <div class='Space'></div>
+    </div>
+    <div id="rot">
+        <p class='amtrotate'>Amount of Rotations</p> <input type="text" id ="rotate"><br>     
+    <button class="enter-button" onclick="rotations()">Enter</button>
+    </div>
+</div>
+
+<div class='clear'></div>
+
+
+
+</div> <!-- alignCenter -->
+</body>
+</html>
